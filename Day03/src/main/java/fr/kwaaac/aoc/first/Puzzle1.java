@@ -3,7 +3,7 @@ import java.io.IOException;
 private final Pattern PATTERN = Pattern.compile("mul\\((?<left>\\d{1,3}),(?<right>\\d{1,3})\\)");
 
 /**
- * Result a IntStream of multipled mul found in the line
+ * Result a IntStream of multiplied mul found in the line
  *
  * @param line line to parse to find mul(X,X)
  * @return IntStream containing the multiplied mul(X,X)

@@ -1,7 +1,5 @@
 package fr.kwaaac.aoc.second;
 
-import java.util.ArrayList;
-
 public class MulState {
 
     private boolean instruction = true;

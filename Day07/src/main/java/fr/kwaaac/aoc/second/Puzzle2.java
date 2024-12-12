@@ -10,7 +10,7 @@ private void puzzle(Path input) throws IOException {
 
                     var result = Long.parseLong(tokens[0]);
                     var numbers = Arrays.stream(tokens[1].split(" ")).map(Long::parseLong).toList();
-                    var combinations = new Combinations(new char[]{'*', '+'}, numbers.size() - 1);
+                    var combinations = new Combinations(new char[]{'*', '+', '|'}, numbers.size() - 1);
 
                     return new Calibration(result, numbers, combinations);
                 })
